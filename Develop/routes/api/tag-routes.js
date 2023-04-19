@@ -5,7 +5,9 @@ const { Tag, Product, ProductTag } = require('../../../models');
 
 // get all tags
 router.get('/', (req, res) => {
+  console.log('')
   // find all tags
+
   Tag.findAll({
     // be sure to include its associated Product data
     include: [
@@ -27,6 +29,7 @@ router.get('/', (req, res) => {
 // get one tag
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
+  console.log('')
   Tag.findOne({
     where: {
       id: req.params.id
@@ -56,6 +59,7 @@ router.get('/:id', (req, res) => {
 
 // create new tag
 router.post('/', (req, res) => {
+  console.log('WTF3')
   /* req.body should look like this...
     {
       tag_name: "sports"
