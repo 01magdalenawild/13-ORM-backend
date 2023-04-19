@@ -36,7 +36,8 @@ npm run seed
 
  ## Usage
 
-Walkthrough video https://drive.google.com/file/d/1OVMHG3OKAg57-QzN4b35OaZrsCPz6th6/view
+Walkthrough video
+https://drive.google.com/file/d/1OVMHG3OKAg57-QzN4b35OaZrsCPz6th6/view
 
 
 ## License
